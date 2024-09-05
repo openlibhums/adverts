@@ -7,7 +7,7 @@ AUTHOR = 'Andy Byers'
 VERSION = '0.2'
 SHORT_NAME = 'adverts'
 MANAGER_URL = 'adverts_manager'
-JANEWAY_VERSION = "1.7"
+JANEWAY_VERSION = "1.7.0"
 
 
 class AdvertsPlugin(plugins.Plugin):

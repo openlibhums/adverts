@@ -30,9 +30,11 @@ def advert_display_choices():
 class Advert(models.Model):
     journal = models.ForeignKey(
         'journal.Journal',
+        on_delete=models.CASCADE,
     )
     issue = models.ForeignKey(
         'journal.Issue',
+        on_delete=models.CASCADE,
     )
     name = models.CharField(
         max_length=255,

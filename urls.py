@@ -1,8 +1,8 @@
-from django.conf.urls import url
+from django.urls import re_path
 
 from plugins.adverts import views
 
 
 urlpatterns = [
-    url(r'^manager/$', views.manager, name='adverts_manager'),
+    re_path(r'^manager/$', views.manager, name='adverts_manager'),
 ]

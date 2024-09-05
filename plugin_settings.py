@@ -4,10 +4,10 @@ PLUGIN_NAME = 'Adverts Plugin'
 DISPLAY_NAME = 'Adverts'
 DESCRIPTION = 'Uses hooks to display adverts in Janeway sites.'
 AUTHOR = 'Andy Byers'
-VERSION = '0.1'
+VERSION = '0.2'
 SHORT_NAME = 'adverts'
 MANAGER_URL = 'adverts_manager'
-JANEWAY_VERSION = "1.3.8"
+JANEWAY_VERSION = "1.7"
 
 
 class AdvertsPlugin(plugins.Plugin):
